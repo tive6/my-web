@@ -1,0 +1,51 @@
+$fontColor: rgba(255,255,255,.5);
+$fontColorActive: #409EEA;
+
+
+.tabs-bg-active {
+    background: linear-gradient(to right, #43D7F6, #2650B1);
+}
+
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clue-body-bg{
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+
+/*
+vantUI
+*/
+.clue-container{
+    .van-picker-column__item,
+    .van-picker__cancel,
+    .van-picker__confirm{
+        line-height: 44px; /* no */
+    }
+    .van-picker-column__item--selected{
+        font-weight: 600;
+    }
+}
+.van-toast__text{
+    line-height: 1.8;
+}
+
+/*
+vConsole
+*/
+#__vconsole .vc-toolbar .vc-tool{
+    height: 50px;
+    line-height: 52px;
+}
+
+#__vconsole .vc-logbox .vc-cmd{
+    display: none!important;
+}
+
+#__vconsole .vc-logbox .vc-item .vc-fold{
+    padding: 10px 0;
+}
